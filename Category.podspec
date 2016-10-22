@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wu890608/Category.git", :tag => "0.0.2" }
   s.source_files  = "Category/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
-  s.frameworks = "UIKit", "CoreGraphics”, "Foundation"
+  s.frameworks = "UIKit", "CoreGraphics”, "CoreFoundation"
 
 
 end
