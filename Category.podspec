@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "5.0"
   s.ios.deployment_target = "5.0"
   s.source       = { :git => "https://github.com/wu890608/Category.git", :tag => "0.0.1" }
-  s.source_files  = “Category/*.{h,m}”
+  s.source_files  = "Category/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
