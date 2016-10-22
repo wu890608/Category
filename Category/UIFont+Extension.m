@@ -8,6 +8,8 @@
 
 #import "UIFont+Extension.h"
 
+#define ScreenWidth              [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight             [UIScreen mainScreen].bounds.size.height
 @implementation UIFont (Extension)
 + (UIFont *)fontWithDevice:(CGFloat)fontSize {
     if (ScreenWidth > 375) {

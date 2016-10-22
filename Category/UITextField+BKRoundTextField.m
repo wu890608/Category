@@ -16,11 +16,11 @@
     textField.font = [UIFont systemFontOfSize:13];
     textField.textAlignment = NSTextAlignmentCenter;
     textField.backgroundColor = [UIColor whiteColor];
-    textField.layer.borderColor = UIColorGray.CGColor;
+    textField.layer.borderColor = [UIColor grayColor].CGColor;
     textField.layer.borderWidth = 1;
     textField.layer.cornerRadius = 5;
     //[householdTF setValue:[UIFont boldSystemFontOfSize:16] forKeyPath:@"_placeholderLabel.font"];
-    [textField setValue:UIColorGray forKeyPath:@"_placeholderLabel.textColor"];
+    [textField setValue:[UIColor grayColor] forKeyPath:@"_placeholderLabel.textColor"];
     
     return textField;
 }

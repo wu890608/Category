@@ -14,12 +14,12 @@
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
     [button setTitle:title forState:UIControlStateNormal];
     button.layer.cornerRadius = cornerRadius;
-    button.layer.borderColor = UIColorGray.CGColor;
+    button.layer.borderColor = [UIColor grayColor].CGColor;
     button.layer.borderWidth = 1;
     [button setBackgroundColor:[UIColor whiteColor]];
     [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     button.titleLabel.font = [UIFont systemFontOfSize:13];
-    [button setTintColor:UIColorGray];
+    [button setTintColor:[UIColor grayColor]];
     return button;
 }
 

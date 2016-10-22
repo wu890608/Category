@@ -10,6 +10,8 @@
 #include "sys/types.h"
 #include "sys/sysctl.h"
 
+#define ScreenWidth              [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight             [UIScreen mainScreen].bounds.size.height
 #define Iphone6Plus [[UIDevice platformString] isEqualToString:@"iPhone 6 plus"]
 #define Iphone6 [[UIDevice platformString] isEqualToString:@"iPhone 6"]
 #define Iphone4 [[UIDevice platformString] isEqualToString:@"iPhone 4s"]
